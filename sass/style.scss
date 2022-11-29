@@ -117,7 +117,7 @@ body {
 
 /* PORTFOLIO */
 .portfolio {
-    background: #f1f2f6;
+    background: #bdc3c7;
 }
 
 .portfolio-title {
@@ -128,18 +128,17 @@ body {
 .cover {
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .box-serv {
-    flex: 1;
-    width: 100%;
-    height: 100%;
+    flex: 0 0 calc(33.333% - 40px);
     text-align: center;
     margin: 20px 20px 30px 20px;
     background: white;
     img {
         width: 100%;
-        height: 100%;
+        height: 300px;
         object-fit: cover;
     }
 }
@@ -158,29 +157,82 @@ body {
 
 .footer-cont {
     display: flex;  
-    padding: 50px 25px;
-    text-align: center;
     padding: 10px;
+    align-items: center;
 }
 
 .footer-title {
     font-size: 15px;
+    margin: 0;
+    
 }
 
 
 .footer ul li {
     font-size: 0;
     display: inline;
-    padding: 0 20px 0 0;
     i {
-        font-size: 30px;
+        font-size: 15px;
         color: white;
         background: black;
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
         border-radius: 50%;
     }
 }
+
+.footer-icons  {
+    text-align: center;
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 700px;
+    }
+    .navbar-links {
+        padding: 50px 0;
+    }
+    .splash {
+        padding-top: 0;
+    }
+    .title-sub {
+        margin-top: 0;
+    }
+    .section-title-services {
+        margin-bottom: 0;
+    }
+    .first-one {
+        font-weight: 100;
+    }
+    .portfolio-title {
+        margin-bottom: 0;
+    }
+    .box-title {
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .box-txt {
+        margin: 0;
+    }
+    .box-serv {
+        margin: 15px;
+    }
+    .box-serv img {
+        height: 230px;
+    }
+    .portfolio {
+        padding-bottom: 40px;
+    }
+}   
+
+
+    
+    
 
 
