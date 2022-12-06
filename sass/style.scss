@@ -27,9 +27,11 @@ body {
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    
 } 
-
+.nav-title {
+    font-family: 'La Belle Aurore';
+    font-size: 35px;
+}
 .navbar-links {
     display: flex;  
     padding: 50px 25px;
@@ -41,24 +43,29 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-family: 'Hind';
     a {
         text-decoration: none;
         color: white;
         padding: 0 10px;
     }
 }
+
 /* header */
 
 .splash {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     .page-title {
         font-size: 30px;
+        font-family: 'Nanum Myeongjo';
+        font-style: italic;
     }
     .page-subtitle {
         margin: 0;
         font-size: 50px;
         padding-bottom: 40px;
+        font-family: 'Hind';
     }
 }
 
@@ -69,11 +76,13 @@ body {
     text-decoration: none;
     border: 1px solid #ccae62;
     padding: 10px 20px;
+    font-family: 'Hind';
 }
 
 /* OUR SERVICES */
 .services {
     margin-bottom: 10%;
+    font-family: 'Hind';
 }
 
 .section-title-services {
@@ -114,10 +123,11 @@ body {
     padding: 20px;
 }
 
-
 /* PORTFOLIO */
+
 .portfolio {
     background: #bdc3c7;
+    font-family: 'Hind';
 }
 
 .portfolio-title {
@@ -159,6 +169,7 @@ body {
     display: flex;  
     padding: 10px;
     align-items: center;
+    font-family: 'Hind';
 }
 
 .footer-title {
@@ -166,7 +177,6 @@ body {
     margin: 0;
     
 }
-
 
 .footer ul li {
     font-size: 0;
