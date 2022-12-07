@@ -126,7 +126,7 @@ body {
 /* PORTFOLIO */
 
 .portfolio {
-    background: #bdc3c7;
+    background: #D3D3D3;
     font-family: 'Hind';
 }
 
@@ -204,7 +204,7 @@ body {
     }
 }
 
-@media (max-width: 767.98px) {
+@media (min-width: 577px) and (max-width: 768px) {
     .container {
         max-width: 700px;
     }
@@ -245,6 +245,25 @@ body {
     }
 }   
 
+@media (max-width: 576px) {
+    .navbar-links {
+        padding: 15px 0 0 0;
+        flex-direction: column;
+    }
+    .nav-title {
+        margin-top: 0;
+    }
+    .boxes-services {
+        flex-direction: column;
+    }
+    .box {
+        padding-top: 25px;
+    }
+    .cover {
+        flex-direction: column;
+        line-height: 1;
+    }
+}   
 
     
     
